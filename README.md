@@ -95,7 +95,7 @@ Summary: For this part of the Challenge, a report that summarizes the analysis t
 As stated under the Deliverable 2 section of this report, the purpose of the analysis was to determine if having a paid Vine review makes a difference in the percentage of 5-star reviews.
 
 
-**Results: **
+**Results:**
 
 [Link to the Vine Review Analysis.ipynb](https://github.com/jsaltmd/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) 
 
