@@ -1,6 +1,5 @@
-![](./pictures/pic9.png)
+![](./pictures/pic1.png)
 
-# Amazon_Vine_Analysis
 Bg data, Hadoop, MapReduce, PySpark, natural language processing (NLP) in relation to big data, and cloud services, Amazon Web Services (AWS).
 
 ### Overview of the statistical analysis:
