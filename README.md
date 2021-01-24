@@ -23,7 +23,7 @@ In this challenge, the following were performed:
 
 Summary: *Using the cloud ETL process, an AWS RDS database was created with tables in pgAdmin, a dataset "amazon_reviews_us_Outdoors_v1_00.tsv.gz" from the Amazon Review datasets was picked and extracted the dataset into a DataFrame. The DataFrame was transformed into four separate DataFrames that matches the table schema in pgAdmin. Then, the transformed data were uploaded into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded.* 
 
-###NOTE:
+**NOTE:**
 
 An error appeared during the data upload to pgAdmin for the products_table. the error states that it was:
 
