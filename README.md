@@ -50,21 +50,44 @@ Below are the actual images of the uploaded data in pgAdmin:
 
 ![](./pictures/vine_table.png)
 
-**Deliverable 2:** Summary Statistics on Suspension Coils:
+**Deliverable 2:** Determine Bias of Vine Reviews:
 
-Summary: The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using R, the following summary statistics table were created to show:
+Summary: Using PySpark, it must be determined if there is any bias towards reviews that were written as part of the Vine program. For this analysis, it has to be determined if having a paid Vine review makes a difference in the percentage of 5-star reviews.
 
-- The suspension coil’s PSI continuous variable across all manufacturing lots.
+Below are the actual images of the DataFrame created in PySpark:
 
-Total Summary:
+1. **Vine_DataFrame**
 
-![](./pictures/pic3.png)
+![](./pictures/vine_table2.png)
 
-- The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+2. **DataFrame where there are 20 or more total votes**
 
-Lot Summary:
+![](./pictures/20_or_more.png) 
 
-![](./pictures/pic4.png)
+3. **DataFrame where the percentage of helpful_votes is equal to or greater than 50%**
+
+![](./pictures/>50%.png)
+
+4. **DataFrame where there is a Vine review**
+
+![](./pictures/yes_vine.png)
+
+5. **DataFrame where there isn’t a Vine review**
+
+![](./pictures/no_vine.png)
+
+6. The total number of reviews is 2302401 
+
+7. The number of 5-star reviews is 1434884
+
+8. The percentage 5-star reviews for all Vine is 0.523
+
+9. The percentage 5-star reviews for non-Vine is 0.526
+
+
+
+
+
 
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
