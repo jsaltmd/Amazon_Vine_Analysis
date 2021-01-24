@@ -95,7 +95,7 @@ Summary: For this part of the Challenge, a report that summarizes the analysis t
 As stated under the Deliverable 2 section of this report, the purpose of the analysis was to determine if having a paid Vine review makes a difference in the percentage of 5-star reviews.
 
 
-Results: 
+**Results: **
 
 [Link to the Vine Review Analysis.ipynb](https://github.com/jsaltmd/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) 
 
@@ -117,13 +117,13 @@ Percentage of Vine reviews were 5 stars: **0.523**
 
 Percentage of non-Vine reviews were 5 stars: **0.526**
 
-Results Summary:
+**Results Summary:**
 
-Based on the results, there is no bias since both 5-star percentage, wether it is paid or unpaid is comparable. The results were discussed with the TA (KK) because she had a different result using the same data. However, I did some calculation verification using the values above and it proves that the results are valid based on the values from the analyzed data. 
+*Based on the results, there is no bias since both 5-star percentage, wether it is paid or unpaid is comparable. The results were discussed with the TA (KK) because she had a different result using the same data. However, I did some calculation verification using the values above and it proves that the results are valid based on the values from the analyzed data.*
 
-Recommendation:
+**Recommendation:**
 
-I would recommend to perform additional statistical analysis on the data (mean, std. deviation, etc...) to further support the analysis.
+*I would recommend to perform additional statistical analysis on the data (mean, std. deviation, etc...) to further support the analysis.*
 
 
 
