@@ -1,6 +1,6 @@
 ![](./pictures/pic1.png)
 
-Bg data, Hadoop, MapReduce, PySpark, natural language processing (NLP) in relation to big data, and cloud services, Amazon Web Services (AWS).
+Big data, Hadoop, MapReduce, PySpark, natural language processing (NLP) in relation to big data, and cloud services, Amazon Web Services (AWS).
 
 ### Overview of the statistical analysis:
 
@@ -28,25 +28,25 @@ An error appeared during the data upload to pgAdmin for the products_table. the 
 
 *"caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "products_table_pkey" Detail: Key duct_id)=(B00IFHFJXI) already exists.*
 
-This error can be verified in the attached "Amazon_Reviews_ETL.ipynb" file. However, it was verified in pgAdmin that the "key duct_id = B00IFHFJXI" is in the pgAdmin products_table as shown below and only one id is in there. All data was also verified that it has successfully migrated in pgAdmin with my tutor Darel Rivera. 
+This error can be seen in the attached "Amazon_Reviews_ETL.ipynb" file. However, it was verified in pgAdmin that the "key duct_id = B00IFHFJXI" is in the pgAdmin products_table as shown below and only one id is in there. All data was also verified that it has successfully migrated in pgAdmin with my tutor Darel Rivera. 
 
 ![](./pictures/duplicate.png)
 
 Below are the actual images of the uploaded data in pgAdmin:
 
-1. Customers_Table
+1. **Customers_Table**
 
 ![](./pictures/customers_table.png)
 
-2. Products_Table
+2. **Products_Table**
 
 ![](./pictures/products_table.png) 
 
-3. Review_ID_Table
+3. **Review_ID_Table**
 
 ![](./pictures/review_id_table.png)
 
-4. Vine_Table
+4. **Vine_Table**
 
 ![](./pictures/vine_table.png)
 
