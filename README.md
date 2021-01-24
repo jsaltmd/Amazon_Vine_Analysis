@@ -66,7 +66,7 @@ Below are the actual images of the DataFrame created in PySpark:
 
 3. **DataFrame where the percentage of helpful_votes is equal to or greater than 50%**
 
-![](./pictures/>50%.png)
+![](./pictures/fifty.png)
 
 4. **DataFrame where there is a Vine review**
 
@@ -76,74 +76,11 @@ Below are the actual images of the DataFrame created in PySpark:
 
 ![](./pictures/no_vine.png)
 
-6. The total number of reviews is 2302401 
+6. The total number of reviews is **2302401** 
 
-7. The number of 5-star reviews is 1434884
+7. The number of 5-star reviews is **1434884**
 
-8. The percentage 5-star reviews for all Vine is 0.523
+8. The percentage 5-star reviews for all Vine is **0.523**
 
-9. The percentage 5-star reviews for non-Vine is 0.526
-
-
-
-
-
-
-1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
-*The current manufacturing data meets the design specification (the variance of the suspension coils does not exceed 100 pounds) based on total specification which shows a variance of 62.3 psi. However, if the variance is calculated for each lot, both lot 1 (0.98) and lot 2 (7.47) meets the design specification, which is well below the PSI limit of 100 pounds. Lot 3 exceeds the limit, with a variance of 170.29*
-
-**Deliverable 3:** T-Tests on Suspension Coils:
-
-Summary: *Using R, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.*
-
-- t-test results across all manufacturing lots:
-
-![](./pictures/pic5.png)
-
-- t-test results for each lot:
-
-Mfg. Lot 1
-
-![](./pictures/pic6.png)
-
-
-Mfg. Lot 2
-
-![](./pictures/pic7.png)
-
-
-Mfg. Lot 3
-
-![](./pictures/pic8.png)
-
-1. Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
-*For all manufacturing lots, the p-value of the suspension coil for PSI is 0.06 which is above the significance level of 0.05%. Therefore, the importance of finding is normal. When t-test is performed for each lot, the p-values for lot 1 (1) and lot 2 (0.61) are both above the significance level and therefore, the results are not statistically different from the mean population of 1,500 pounds per square inch. The p-value for lot 3 is 0.04 and therefore, it is statistically different from the mean population of 1,500 pounds per square inch.*
-
-**Deliverable 4:** Study Design: MechaCar vs Competition:
-
-Summary: *Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.*
-
-In your description, address the following questions:
-
-- What metric or metrics are you going to test?
-- What is the null hypothesis or alternative hypothesis?
-- What statistical test would you use to test the hypothesis? And why?
-- What data is needed to run the statistical test?
-
-1. Horsepower refers to the power an engine produces and since most drivers wants faster cars, it might be worthwile to look into this when comparing how MechaCar performs against the competition. Another interest is fuel efficiency as lowering carbon footprint is important for the invironment and lowering cost is not a bad idea. 
-
-2. A null hypothesis (Ho) can be stated how it is not different from the competitor (*There is no statistical difference between the observed sample mean and its presumed population mean*) and the alternative (Ha) is how it is different (*There is a statistical difference between the observed sample mean and its presumed population mean*).
-
-3. Data from the competitor's vehicles are needed in order to perform a sample t-test.
-
-4. The observed sample mean against the presumed population mean will be used to compare through the t-test.
-
-
-
-
-
-
-
+9. The percentage 5-star reviews for non-Vine is **0.526**
 
