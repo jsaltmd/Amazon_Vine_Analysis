@@ -36,6 +36,10 @@ However, it was verified in pgAdmin that the "key duct_id = B00IFHFJXI" is in th
 
 ![](./pictures/duplicate.png)
 
+On 012521, this error was brought up during the class and our professor Jon Richards told us to drop the "PRIMARY KEY NOT NULL UNIQUE" when creating the table in postgreSQL. I asked him if I could try that and he said yes and to document it in this report. I reran the data migration to postgreSQL as instructed and it worked with no errors. Refer to the second attached Amazon_Reviews_ETL2 file.
+
+[Link to the Amazon Reviews ETL2.ipynb](https://github.com/jsaltmd/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL2.ipynb)
+
 Below are the actual images of the uploaded data in pgAdmin:
 
 1. **Customers_Table**
