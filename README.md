@@ -54,6 +54,11 @@ Below are the actual images of the uploaded data in pgAdmin:
 
 ![](./pictures/review_id_table.png)
 
+**Products_table ran from Amazon_Reviews_ETL2:**
+
+![](./pictures/pic3.png)
+
+
 4. **Vine_Table**
 
 ![](./pictures/vine_table.png)
